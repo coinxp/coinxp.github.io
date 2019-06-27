@@ -104,6 +104,372 @@
     
 
     
+    <h4 class="name" id="award%E5%A5%96%E5%8A%B1"><span class="type-signature"></span>award 奖励<span class="signature">(userAcc, vol)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>userAcc</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">CXP区块链 账户</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>vol</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">数量，整数，  比如 100.00000000</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="cxpAPI.js.html">cxpAPI.js</a>, <a href="cxpAPI.js.html#line1471">line 1471</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    @returns   { broadcast: true, ..... }
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>ret = await api_cxp.award('abcd', 1000  ) </code></pre>
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="awardfrompool%E5%A5%96%E6%B1%A0%E5%A5%96%E5%8A%B1"><span class="type-signature"></span>awardfrompool 奖池奖励<span class="signature">(userAcc, vol)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>userAcc</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">CXP区块链 账户</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>vol</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">数量，整数，  比如 100.00000000</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="cxpAPI.js.html">cxpAPI.js</a>, <a href="cxpAPI.js.html#line1516">line 1516</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    @returns   { broadcast: true, ..... }
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>ret = await api_cxp.award('abcd', 1000  ) </code></pre>
+
+
+
+        
+            
+
+    
+
+    
     <h4 class="name" id="bank2change%E9%93%B6%E8%A1%8C%E4%B8%AA%E4%BA%BA%E8%B5%84%E4%BA%A7%E8%BD%AC%E4%BA%A4%E6%98%93%E6%89%80"><span class="type-signature"></span>bank2change 银行个人资产转交易所<span class="signature">(name, changename, amount, type, priKey, host)</span><span class="type-signature"> &rarr; {Object}</span></h4>
     
 
@@ -326,6 +692,8 @@
 
     
 </dl>
+
+
 
 
 
@@ -658,6 +1026,8 @@
 
 
 
+
+
 <h5>Returns:</h5>
 
         
@@ -687,6 +1057,212 @@
     <h5>Example</h5>
     
     <pre class="prettyprint"><code>ret = await api_cxp.buy(  'ETH/BTC', 'sim', 0.003 , 1, 666606,  '5KiTgpHdj3QZQmHtefRJDR5nnProKnBPt2icZBKkLF2vWqSTQez', 'exchange1', host='http://testnet-bpb.coinxp.io:8888' )</code></pre>
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="buyDt%E8%B4%AD%E4%B9%B0Dt"><span class="type-signature"></span>buyDt 购买Dt<span class="signature">(userAcc, vol, userKey)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>userAcc</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">CXP区块链 账户</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>vol</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">数量，整数</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>userKey</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">用户密钥 active</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="cxpAPI.js.html">cxpAPI.js</a>, <a href="cxpAPI.js.html#line1331">line 1331</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    @returns   { broadcast: true, ..... }
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>ret = await api_cxp.buyDt('abcd', 1000, '5JFduBWtcggNQLTZMYY9wBJPqHn9C6WkSWnhdbwP37LA24KCpiV') </code></pre>
 
 
 
@@ -872,6 +1448,8 @@
 
     
 </dl>
+
+
 
 
 
@@ -1158,6 +1736,8 @@
 
 
 
+
+
 <h5>Returns:</h5>
 
         
@@ -1187,6 +1767,189 @@
     <h5>Example</h5>
     
     <pre class="prettyprint"><code>ret = await api_cxp.change2bank('wm', 'exchang1', 1.1, 'BTC', '5KiTgpHdj3QZQmHtefRJDR5nnProKnBPt2icZBKkLF2vWqSTQez')</code></pre>
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="confdonation%E6%8D%90%E7%8C%AE%E7%A1%AE%E8%AE%A4%EF%BC%8C%E5%9C%A8donate%E8%B0%83%E7%94%A8%E4%B9%8B%E5%90%8E1%E7%A7%92%E5%86%85%E8%B0%83%E7%94%A8"><span class="type-signature"></span>confdonation 捐献确认， 在 donate 调用之后1秒内调用<span class="signature">(userAcc, vol)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>userAcc</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">CXP区块链 账户</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>vol</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">数量，整数，  比如 100.00000000 HUB 或者 100 DT</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="cxpAPI.js.html">cxpAPI.js</a>, <a href="cxpAPI.js.html#line1426">line 1426</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    @returns   { broadcast: true, ..... }
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>ret = await api_cxp.confdonation('abcd', 1000,  ) </code></pre>
 
 
 
@@ -1408,6 +2171,8 @@
 
 
 
+
+
 <h5>Returns:</h5>
 
         
@@ -1437,6 +2202,212 @@
     <h5>Example</h5>
     
     <pre class="prettyprint"><code>ret = await api_cxp.createAccount(newUser, PriKey, PubKey, PubKey, host='http://testnet-bpb.coinxp.io:8888'  )</code></pre>
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="donate%E6%8D%90%E7%8C%AE"><span class="type-signature"></span>donate 捐献<span class="signature">(userAcc, vol, userKey)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>userAcc</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">CXP区块链 账户</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>vol</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">数量，整数，  比如 100.00000000 HUB 或者 100 DT</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>userKey</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">用户密钥 active</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="cxpAPI.js.html">cxpAPI.js</a>, <a href="cxpAPI.js.html#line1379">line 1379</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    @returns   { broadcast: true, ..... }
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>ret = await api_cxp.donate('abcd', 1000, '5JFduBWtcggNQLTZMYY9wBJPqHn9C6WkSWnhdbwP37LA24KCpiV') </code></pre>
 
 
 
@@ -1504,6 +2475,8 @@
 
     
 </dl>
+
+
 
 
 
@@ -1663,6 +2636,8 @@
 
     
 </dl>
+
+
 
 
 
@@ -1886,7 +2861,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="cxpAPI.js.html">cxpAPI.js</a>, <a href="cxpAPI.js.html#line936">line 936</a>
+        <a href="cxpAPI.js.html">cxpAPI.js</a>, <a href="cxpAPI.js.html#line1000">line 1000</a>
     </li></ul></dd>
     
 
@@ -1896,6 +2871,8 @@
 
     
 </dl>
+
+
 
 
 
@@ -2085,6 +3062,8 @@
 
     
 </dl>
+
+
 
 
 
@@ -2289,6 +3268,8 @@
 
 
 
+
+
 <h5>Returns:</h5>
 
         
@@ -2467,6 +3448,8 @@
 
     
 </dl>
+
+
 
 
 
@@ -2679,6 +3662,8 @@
 
     
 </dl>
+
+
 
 
 
@@ -2908,7 +3893,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="cxpAPI.js.html">cxpAPI.js</a>, <a href="cxpAPI.js.html#line974">line 974</a>
+        <a href="cxpAPI.js.html">cxpAPI.js</a>, <a href="cxpAPI.js.html#line1038">line 1038</a>
     </li></ul></dd>
     
 
@@ -2918,6 +3903,8 @@
 
     
 </dl>
+
+
 
 
 
@@ -3147,6 +4134,8 @@
 
 
 
+
+
 <h5>Returns:</h5>
 
         
@@ -3341,6 +4330,8 @@
 
     
 </dl>
+
+
 
 
 
@@ -3561,6 +4552,8 @@
 
 
 
+
+
 <h5>Returns:</h5>
 
         
@@ -3590,6 +4583,117 @@
     <h5>Example</h5>
     
     <pre class="prettyprint"><code>ret = await api_cxp.queryCoinAddr(newUser, 'BTC',host='http://testnet-bpb.coinxp.io:8888' ); </code></pre>
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="queryDtdt%E6%9F%A5%E8%AF%A2dt%E6%83%85%E5%86%B5"><span class="type-signature"></span>queryDtdt 查询dt情况<span class="signature">()</span><span class="type-signature"> &rarr; {Object}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="cxpAPI.js.html">cxpAPI.js</a>, <a href="cxpAPI.js.html#line1559">line 1559</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    @returns    { rows: [ [Object], [Object], [Object] ], more: false }
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>ret = await api_cxp.queryDtdt(  ) </code></pre>
 
 
 
@@ -3729,6 +4833,8 @@
 
     
 </dl>
+
+
 
 
 
@@ -4028,6 +5134,8 @@
 
     
 </dl>
+
+
 
 
 
@@ -4360,6 +5468,8 @@
 
 
 
+
+
 <h5>Returns:</h5>
 
         
@@ -4408,13 +5518,13 @@
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#bank2change%25E9%2593%25B6%25E8%25A1%258C%25E4%25B8%25AA%25E4%25BA%25BA%25E8%25B5%2584%25E4%25BA%25A7%25E8%25BD%25AC%25E4%25BA%25A4%25E6%2598%2593%25E6%2589%2580">bank2change 银行个人资产转交易所</a></li><li><a href="global.html#buy%25E4%25B9%25B0%25E5%2585%25A5%25E9%2599%2590%25E4%25BB%25B7%25E5%25A7%2594%25E6%2589%2598">buy 买入限价委托</a></li><li><a href="global.html#cancel%25E5%25A7%2594%25E6%2589%2598%25E6%2592%25A4%25E9%2594%2580">cancel 委托撤销</a></li><li><a href="global.html#change2bank%25E4%25BA%25A4%25E6%2598%2593%25E6%2589%2580%25E4%25B8%25AA%25E4%25BA%25BA%25E8%25B5%2584%25E4%25BA%25A7%25E8%25BD%25AC%25E9%2593%25B6%25E8%25A1%258C">change2bank 交易所个人资产转银行</a></li><li><a href="global.html#createAccount%25E5%2588%259B%25E5%25BB%25BACXP%25E7%2594%25A8%25E6%2588%25B7">createAccount 创建CXP用户</a></li><li><a href="global.html#genKeys%25E7%2594%259F%25E6%2588%2590%25E5%25AF%2586%25E9%2592%25A5%25E5%25AF%25B9">genKeys  生成密钥对</a></li><li><a href="global.html#getCoins%25E8%258E%25B7%25E5%258F%2596%25E6%2594%25AF%25E6%258C%2581%25E7%259A%2584%25E5%25B8%2581%25E7%25A7%258D">getCoins 获取支持的币种</a></li><li><a href="global.html#getDeposits%25E8%258E%25B7%25E5%258F%2596%25E7%2594%25A8%25E6%2588%25B7%25E7%259A%2584%25E5%2585%2585%25E5%25B8%2581%25E8%25AE%25B0%25E5%25BD%2595">getDeposits 获取用户的充币记录</a></li><li><a href="global.html#getOrderbookbuy%25E8%258E%25B7%25E5%258F%2596%25E4%25BA%25A4%25E6%2598%2593%25E5%25AF%25B9%25E7%259A%2584%25E5%25A7%2594%25E4%25B9%25B010%25E6%25A1%25A3%25E8%25A1%258C%25E6%2583%2585">getOrderbookbuy 获取交易对的委买 10 档行情</a></li><li><a href="global.html#getOrderbooksell%25E8%258E%25B7%25E5%258F%2596%25E4%25BA%25A4%25E6%2598%2593%25E5%25AF%25B9%25E7%259A%2584%25E5%25A7%2594%25E5%258D%2596%25E8%25A1%258C%25E6%2583%2585%25EF%25BC%258C10%25E6%25A1%25A3">getOrderbooksell 获取交易对的委卖行情，10档</a></li><li><a href="global.html#getTradepair%25E8%258E%25B7%25E5%258F%2596%25E6%2594%25AF%25E6%258C%2581%25E7%259A%2584%25E4%25BA%25A4%25E6%2598%2593%25E5%25AF%25B9">getTradepair 获取支持的交易对</a></li><li><a href="global.html#getUserOrders%25E8%258E%25B7%25E5%258F%2596%25E7%2594%25A8%25E6%2588%25B7%25E7%259A%2584%25E6%2588%2590%25E4%25BA%25A4%25E8%25AE%25B0%25E5%25BD%2595">getUserOrders 获取用户的成交记录</a></li><li><a href="global.html#getWithdraws%25E8%258E%25B7%25E5%258F%2596%25E7%2594%25A8%25E6%2588%25B7%25E7%259A%2584%25E6%258F%2590%25E5%25B8%2581%25E8%25AE%25B0%25E5%25BD%2595">getWithdraws 获取用户的提币记录</a></li><li><a href="global.html#queryBlance%25E6%259F%25A5%25E8%25AF%25A2%25E7%2594%25A8%25E6%2588%25B7%25E9%2593%25B6%25E8%25A1%258C%25E8%25B5%2584%25E4%25BA%25A7%25E4%25BD%2599%25E9%25A2%259D">queryBlance 查询用户银行资产余额</a></li><li><a href="global.html#queryBlanceExchange%25E6%259F%25A5%25E8%25AF%25A2%25E7%2594%25A8%25E6%2588%25B7%25E5%259C%25A8%25E4%25BA%25A4%25E6%2598%2593%25E6%2589%2580%25E8%25B5%2584%25E4%25BA%25A7">queryBlanceExchange  查询用户在交易所资产</a></li><li><a href="global.html#queryCoinAddr%25E6%259F%25A5%25E8%25AF%25A2%25E5%25B8%2581%25E5%259C%25B0%25E5%259D%2580">queryCoinAddr 查询币地址</a></li><li><a href="global.html#queryLastPrice%25E6%259F%25A5%25E8%25AF%25A2%25E4%25BA%25A4%25E6%2598%2593%25E5%25AF%25B9%25E6%259C%2580%25E6%2596%25B0%25E4%25BB%25B7">queryLastPrice 查询交易对最新价</a></li><li><a href="global.html#reqwithdraw%25E7%2594%25A8%25E6%2588%25B7%25E6%258F%2590%25E5%25B8%2581">reqwithdraw 用户提币</a></li><li><a href="global.html#sell%25E5%258D%2596%25E5%2587%25BA%25E9%2599%2590%25E4%25BB%25B7%25E5%25A7%2594%25E6%2589%2598">sell 卖出限价委托</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#award%25E5%25A5%2596%25E5%258A%25B1">award 奖励</a></li><li><a href="global.html#awardfrompool%25E5%25A5%2596%25E6%25B1%25A0%25E5%25A5%2596%25E5%258A%25B1">awardfrompool 奖池奖励</a></li><li><a href="global.html#bank2change%25E9%2593%25B6%25E8%25A1%258C%25E4%25B8%25AA%25E4%25BA%25BA%25E8%25B5%2584%25E4%25BA%25A7%25E8%25BD%25AC%25E4%25BA%25A4%25E6%2598%2593%25E6%2589%2580">bank2change 银行个人资产转交易所</a></li><li><a href="global.html#buy%25E4%25B9%25B0%25E5%2585%25A5%25E9%2599%2590%25E4%25BB%25B7%25E5%25A7%2594%25E6%2589%2598">buy 买入限价委托</a></li><li><a href="global.html#buyDt%25E8%25B4%25AD%25E4%25B9%25B0Dt">buyDt 购买Dt</a></li><li><a href="global.html#cancel%25E5%25A7%2594%25E6%2589%2598%25E6%2592%25A4%25E9%2594%2580">cancel 委托撤销</a></li><li><a href="global.html#change2bank%25E4%25BA%25A4%25E6%2598%2593%25E6%2589%2580%25E4%25B8%25AA%25E4%25BA%25BA%25E8%25B5%2584%25E4%25BA%25A7%25E8%25BD%25AC%25E9%2593%25B6%25E8%25A1%258C">change2bank 交易所个人资产转银行</a></li><li><a href="global.html#confdonation%25E6%258D%2590%25E7%258C%25AE%25E7%25A1%25AE%25E8%25AE%25A4%25EF%25BC%258C%25E5%259C%25A8donate%25E8%25B0%2583%25E7%2594%25A8%25E4%25B9%258B%25E5%2590%258E1%25E7%25A7%2592%25E5%2586%2585%25E8%25B0%2583%25E7%2594%25A8">confdonation 捐献确认， 在 donate 调用之后1秒内调用</a></li><li><a href="global.html#createAccount%25E5%2588%259B%25E5%25BB%25BACXP%25E7%2594%25A8%25E6%2588%25B7">createAccount 创建CXP用户</a></li><li><a href="global.html#donate%25E6%258D%2590%25E7%258C%25AE">donate 捐献</a></li><li><a href="global.html#genKeys%25E7%2594%259F%25E6%2588%2590%25E5%25AF%2586%25E9%2592%25A5%25E5%25AF%25B9">genKeys  生成密钥对</a></li><li><a href="global.html#getCoins%25E8%258E%25B7%25E5%258F%2596%25E6%2594%25AF%25E6%258C%2581%25E7%259A%2584%25E5%25B8%2581%25E7%25A7%258D">getCoins 获取支持的币种</a></li><li><a href="global.html#getDeposits%25E8%258E%25B7%25E5%258F%2596%25E7%2594%25A8%25E6%2588%25B7%25E7%259A%2584%25E5%2585%2585%25E5%25B8%2581%25E8%25AE%25B0%25E5%25BD%2595">getDeposits 获取用户的充币记录</a></li><li><a href="global.html#getOrderbookbuy%25E8%258E%25B7%25E5%258F%2596%25E4%25BA%25A4%25E6%2598%2593%25E5%25AF%25B9%25E7%259A%2584%25E5%25A7%2594%25E4%25B9%25B010%25E6%25A1%25A3%25E8%25A1%258C%25E6%2583%2585">getOrderbookbuy 获取交易对的委买 10 档行情</a></li><li><a href="global.html#getOrderbooksell%25E8%258E%25B7%25E5%258F%2596%25E4%25BA%25A4%25E6%2598%2593%25E5%25AF%25B9%25E7%259A%2584%25E5%25A7%2594%25E5%258D%2596%25E8%25A1%258C%25E6%2583%2585%25EF%25BC%258C10%25E6%25A1%25A3">getOrderbooksell 获取交易对的委卖行情，10档</a></li><li><a href="global.html#getTradepair%25E8%258E%25B7%25E5%258F%2596%25E6%2594%25AF%25E6%258C%2581%25E7%259A%2584%25E4%25BA%25A4%25E6%2598%2593%25E5%25AF%25B9">getTradepair 获取支持的交易对</a></li><li><a href="global.html#getUserOrders%25E8%258E%25B7%25E5%258F%2596%25E7%2594%25A8%25E6%2588%25B7%25E7%259A%2584%25E6%2588%2590%25E4%25BA%25A4%25E8%25AE%25B0%25E5%25BD%2595">getUserOrders 获取用户的成交记录</a></li><li><a href="global.html#getWithdraws%25E8%258E%25B7%25E5%258F%2596%25E7%2594%25A8%25E6%2588%25B7%25E7%259A%2584%25E6%258F%2590%25E5%25B8%2581%25E8%25AE%25B0%25E5%25BD%2595">getWithdraws 获取用户的提币记录</a></li><li><a href="global.html#queryBlance%25E6%259F%25A5%25E8%25AF%25A2%25E7%2594%25A8%25E6%2588%25B7%25E9%2593%25B6%25E8%25A1%258C%25E8%25B5%2584%25E4%25BA%25A7%25E4%25BD%2599%25E9%25A2%259D">queryBlance 查询用户银行资产余额</a></li><li><a href="global.html#queryBlanceExchange%25E6%259F%25A5%25E8%25AF%25A2%25E7%2594%25A8%25E6%2588%25B7%25E5%259C%25A8%25E4%25BA%25A4%25E6%2598%2593%25E6%2589%2580%25E8%25B5%2584%25E4%25BA%25A7">queryBlanceExchange  查询用户在交易所资产</a></li><li><a href="global.html#queryCoinAddr%25E6%259F%25A5%25E8%25AF%25A2%25E5%25B8%2581%25E5%259C%25B0%25E5%259D%2580">queryCoinAddr 查询币地址</a></li><li><a href="global.html#queryDtdt%25E6%259F%25A5%25E8%25AF%25A2dt%25E6%2583%2585%25E5%2586%25B5">queryDtdt 查询dt情况</a></li><li><a href="global.html#queryLastPrice%25E6%259F%25A5%25E8%25AF%25A2%25E4%25BA%25A4%25E6%2598%2593%25E5%25AF%25B9%25E6%259C%2580%25E6%2596%25B0%25E4%25BB%25B7">queryLastPrice 查询交易对最新价</a></li><li><a href="global.html#reqwithdraw%25E7%2594%25A8%25E6%2588%25B7%25E6%258F%2590%25E5%25B8%2581">reqwithdraw 用户提币</a></li><li><a href="global.html#sell%25E5%258D%2596%25E5%2587%25BA%25E9%2599%2590%25E4%25BB%25B7%25E5%25A7%2594%25E6%2589%2598">sell 卖出限价委托</a></li></ul>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Mon Nov 12 2018 15:58:42 GMT+0800 (中国标准时间)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.2</a> on Thu Jun 27 2019 22:19:23 GMT+0800 (GMT+08:00)
 </footer>
 
 <script> prettyPrint(); </script>
